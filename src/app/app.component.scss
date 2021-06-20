@@ -1,0 +1,25 @@
+.bg {
+    background: gray url(https://subtlepatterns.com/patterns/darkness.png) repeat 0 0;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    padding-top: 120px;
+    box-sizing: border-box;
+    -webkit-animation: slide 2s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 400px; }
+}
+
+.arrow-up {
+    margin: 0 auto;
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    
+    border-bottom: 50px solid red;
+  }
